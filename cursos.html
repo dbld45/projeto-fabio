@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0; 
+            padding: 0; 
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #ffffff;
+            color: #0059ff;
+            border-bottom-left-radius: 15px; 
+            border-bottom-right-radius: 15px; 
+        }
+
+        .logo {
+            margin: 0;
+            font-size: 24px;
+        }
+        form {
+            width: 350px;
+            margin: 0 auto;
+        }
+
+        form label {
+            display: block;
+            margin-top: 20px;
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="password"] {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+        form input[type="submit"] {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .video-container iframe {
+            margin: 10px;
+        }
+
+        .header-container {
+            padding: 10px; 
+            text-align: right;
+        }
+
+       
+
+        .rectangle {
+            width: 50px;
+            height: 50px;
+            background-color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header-container>
+            <h2 class="logo"><span>C</span>iberdevs.</h2>
+        </header-container>
+        <div class="header-container">
+            <nav class="navigation">
+                <a href="Home.html">Home</a>
+                <a href="qmsomos.html">Quem Somos?</a>
+                <a href="#cursos">Cursos</a>
+                <a href="#contatos">Contatos</a>
+                <a href="login.html">Login</a>
+            </nav>
+        </div>
+    </div>
+    <section id="cursos">
+        <h2>Cursos</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CO4C9UVaFKk?si=CkYej7JIJtI_cZuR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PuyZAUyZYDI?si=uTA9gJYS3J6sTNgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </section>
+</body>
